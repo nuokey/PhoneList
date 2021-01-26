@@ -71,7 +71,7 @@ contacts()
 root_name = Label(text = 'NuoPhone', bg = 'grey', fg = 'white')
 root_name.place(x = 0, y = 0, width = 250, height = 30)
 
-plus_contact = Button(text='+', bg = 'black', command = contact_add)
+plus_contact = Button(text='+', bg = 'black', fg = 'white', command = contact_add)
 plus_contact.place(x = 225, y = 5, width = 20, height = 20)
 
 root.mainloop()
